@@ -3,3 +3,24 @@ A: Git init will tell git that it is a repository and start tracking it...
 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: Staging area allows you to add small logical changes before a commit. Doing a commit on staging areas puts everything as a single commit into the repo.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: staging area can be used to stage the set of files that belong to a logical commit. Once done commit those. Then do for the rest of the changes. That way changes are logically isolated.
+
+Q: What are some situations when branches would be helpful in keeing your history organized? How would branches help?
+
+A: Branches help with experimenting with the code while keeping the master copy available for others. And allows collaboration so multiple simultaneous changes can take place in the code. Eg. dev,  master, experimental etc.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: It is complex, not straight forward but diagrams help simplify and understand which changes will be reflected on which branches.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: Merging will merge the code in each of the branches. Representing it in a diagram will help understand which commits are reachable and if so, delete the branch.
+
+Q: What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+A: When possible, automatic merge is very helpful. When not able to resolve, allowing the user to merge the changes is very very important as the machine doesn't understand the logic.
+
