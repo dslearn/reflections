@@ -1,0 +1,5 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: Git init will tell git that it is a repository and start tracking it...
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: Staging area allows you to add small logical changes before a commit. Doing a commit on staging areas puts everything as a single commit into the repo.
